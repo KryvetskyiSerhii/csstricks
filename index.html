@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Complete Guide to Felxbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <div class="header__logo-right">
+                    <a href="#" class="header__logo-link">* CSS-TRICKS |</a>   
+                </div>
+                <div class="header__logo-right logo__right">
+                    <div class="logo__right-img">
+                        <img src="img/digit.png" alt="logo">
+                    </div>
+                    <div class="logo__right-link">
+                        <a href="#" class="header__logo-top"><i>Powered by</i></a>
+                        <a href="#" class="header__logo-bottom">Digiatl Ocean</a>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">ARTICLES</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">VIDEOS</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">ALMANAC</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">NEWSLETTER</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">GUIDES</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">DIGITALOCEAN</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">DO COMMUNITY</a></li>
+                </ul>
+            </nav>
+            <div class="header__search">
+                <img src="img/search.png" alt="search">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="guide">
+            <div class="container guide__container">
+                <div class="guide__left">
+                    <ul class="guide__left-list">
+                        <li class="guide__left-items"><a href="#" class="guide__left-link">HOME</a></li>
+                        <li class="guide__left-items"><a href="#" class="guide__left-link">GUIDES</a></li>
+                    </ul>
+                    <h1 class="guide__left-title">A Complete Guide to Flexbox</h1>
+                    <div class="guide__left-comment comment__left">
+                        <img src="img/bean.jpg" alt="bean">
+                        <p class="comment__left-text"><a href="#"> Chris Coyier</a> on Apr 8, 2013 (Updated on Feb 20, 2022)</p>
+                    </div>
+                    <p class="guide__left-text">
+                        Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.
+                    </p>
+                </div>
+                <div class="guide__right">
+                    <div class="gudie__right-block">
+                        <h3 class="gudie__right-title">CSS-Tricks + DigitalOcean</h3>
+                        <p class="guide__right-text">CSS-Tricks is joining the DigitalOcean community! We are so excited to be joining forces. Learn more about this change <a href="#">here</a>. As a special welcome offer, <a href="#">enjoy $100 of free credit </a>to try DigitalOcean on us.</p>
+                    </div>
+                    <div class="guide__right-img">
+                        <img src="img/digit.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="content">
+            <div class="container content__container">
+                <div class="content__block-left block__left">
+                    <p class="block__left-text">Part 1: <a href="#">Background</a></p>
+                    <p class="block__left-text">Part 2: <a href="#">Basics and terminology</a></p>
+                    <p class="block__left-text">Part 3: <a href="#">Flexbox properties</a></p>
+                    <p class="block__left-text">Part 4: <a href="#">Prefixing Flexbox</a></p>
+                    <p class="block__left-text">Part 5: <a href="#">Examples</a></p>
+                    <p class="block__left-text">Part 6: <a href="#">Flexbox tricks</a></p>
+                    <p class="block__left-text">Part 7: <a href="#">Browser support</a></p>
+                    <p class="block__left-text">Part 8: <a href="#">Bugs</a></p>
+                    <p class="block__left-text">Part 9: <a href="#">Related properties</a></p>
+                    <p class="block__left-text">Part 10: <a href="#">More information</a></p>
+                </div>
+                <div class="content__block-right block__right">
+                    <div class="block__right-content">
+                        <h3 class="block__right-title">Get the poster!</h3>
+                        <p class="block__right-text">Reference this guide a lot? Here’s a high-res image you can print!</p>
+                        <button class="block__right-btn">DOWNLOAD FOR FREE</button>
+                    </div>
+                    <div class="block__right-img">
+                        <img src="img/flexbox.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="navigate">
+            <div class="container navigate__container">
+                <div class="navigate__line"></div>
+                <div class="navigate__menu">
+                    <ul class="navigate__menu-list">
+                        <li class="navigate__menu-item"><a href="#">Background</a></li>
+                        <li class="navigate__menu-item"><a href="#">Basics and terminology</a></li>
+                        <li class="navigate__menu-item">
+                            <div class="properties">
+                                <a href="#">Flexbox properties</a>
+                                <div class="properties__block">
+                                    <div class="properties__block-parent parent__block">
+                                        <div class="parent__block-img">
+                                            <img src="img/flexContainer.png" alt="flex container">
+                                        </div>
+                                        <div class="parent__block-content">
+                                            <h3 class="parent__block-title">Properties for the Parent
+                                                (flex container)</h3>
+                                            <div class="parent__block-items parent__items">
+                                                <h4 class="parent__items-title">display</h4>
+                                                <p class="parent__items-text">This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+                                                <div class="parent__items-block">.container { <br>
+                                                    &nbsp;&nbsp;&nbsp;display: flex; /* or inline-flex */ <br>
+                                                  }</div>
+                                                <p class="parent__items-text">Note that CSS columns have no effect on a flex container.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="properties__block-children children__block">
+                                        <div class="children__block-img">
+                                            <img src="img/flexItems.png" alt="flex items">
+                                        </div>
+                                        <div class="children__block-content">
+                                            <h3 class="children__block-title">Properties for the Children
+                                                (flex items)</h3>
+                                            <div class="children__block-items children__items">
+                                                <h4 class="children__items-title">order</h4>
+                                                <div class="children__items-img">
+                                                    <img src="img/flexOrder.png" alt="flexOrder">
+                                                </div>
+                                                <p class="children__items-text">By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.</p>
+                                                <div class="children__items-block">.item { <br>
+                                                    &nbsp;&nbsp;&nbsp;order: 5; /* default is 0 */ <br>
+                                                  }</div>
+                                                <p class="children__items-text">Items with the same order revert to source order.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigate__menu-item"><a href="#">Prefixing Flexbox</a></li>
+                        <li class="navigate__menu-item"><a href="#">Examples</a></li>
+                        <li class="navigate__menu-item"><a href="#">Flexbox tricks</a></li>
+                        <li class="navigate__menu-item"><a href="#">Browser support</a></li>
+                        <li class="navigate__menu-item"><a href="#">Bugs</a></li>
+                        <li class="navigate__menu-item"><a href="#">Related properties</a></li>
+                        <li class="navigate__menu-item"><a href="#">More information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container free">
+            <div class="free__block">
+                <p class="free__text">DigitalOcean joining forces with CSS-Tricks! Special welcome offer:
+                    <a href="#">get $100 of free credit.</a>
+                </p>
+            </div>
+        </div>
+        <section class="comments">
+            <div class="container comments__container">
+                <h2 class="comments__title">Comments</h2>
+                <div class="comment__block">
+                    <div class="comments__inner">
+                        <h3 class="comments__block-title">Leave a Reply</h3>
+                        <div class="comments__textarea form">
+                            <label for="textarea" class="comments__area">Comment </label>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="New Comment! Use 'backstick' to code"></textarea>
+                        </div>
+                        <div class="comments__name form">
+                            <label for="name">Name</label>
+                            <input type="text" class="name">
+                        </div>
+                        <div class="comments__email form">
+                            <label for="email" class="email-text">Email</label>
+                            <input type="email" class="email" name="email">
+                        </div>
+                        <div class="comments__web form">
+                            <label for="web" class="web-text">Website</label>
+                            <input type="text" class="web" name="web">
+                        </div>
+                        <div class="comments__checkbox form">
+                            <div class="check-one"><input type="checkbox" class="check">Save my name, email, and website in this browser for the next time I comment.</div>
+                            <div class="check-two"><input type="checkbox" class="check">Get the CSS-Tricks newsletter</div>
+                        </div>
+                    </div>
+                    <div class="comments__button">
+                        <button class="comments__btn">Post comment</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="subscribe">
+        <div class="container subscribe__container">
+            <h3 class="subscribe__title">KEEP UP TO DATE ON WEB DEV</h3>
+            <p class="subscribe__text">with our hand-crafted newsletter</p>
+            <form class="subscribe__form">
+                <input type="email">
+                <button class="subscribe__btn">SUBSCRIBE</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__title-block">
+                <h2 class="footer__title">CSS-Tricks is powered by <br> <a href="#">DigitalOcean</a></h2>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content-item">
+                    <h3 class="content-title">DIGITALOCEAN</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">DigitalOcean</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">DigitalOcean Community</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">About DigitalOcean</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Legal</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Free Credit Offer</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content-item">
+                    <h3 class="content-title">MINISITES</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">The Power of Serverless</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Upcoming Conferencesy</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Coding Fonts</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">The Greatest CSS Tricks</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content-item">
+                    <h3 class="content-title">CONTACT</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Email</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Guest Writing</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content-item">
+                    <h3 class="content-title">FOLLOW</h3>
+                    <ul class="footer__list follow">
+                        <div class="first-item">
+                            <li class="footer__item"><a href="#" class="footer__link">Twitter</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Instagram</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">YuoTube</a></li>
+                        </div>
+                        <div>  
+                            <li class="footer__item"><a href="#" class="footer__link">CodePen</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">iTunes</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">RSS</a></li>
+                        </div> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
